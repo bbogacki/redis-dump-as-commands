@@ -6,7 +6,7 @@ Simple and dirty Lua script to dump Redis content as redis commands. Supports on
 To dump redis database as commands type:
 
 ```
-redis-cli EVAL "$(cat graph.lua)" 0
+redis-cli EVAL "$(cat redis-dump-as-commands.lua)" 0
 ```
 
 To recreate database in redis type:
